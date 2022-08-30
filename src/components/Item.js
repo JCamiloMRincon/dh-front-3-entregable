@@ -37,7 +37,9 @@ export default function Item(props) {
       <h5>En stock: 
         <span>{itemStock}</span> 
       </h5>
-      <button type="button" disabled={isDisabled} onClick={disminuirStock}>COMPRAR</button>
+      <button type="button" 
+              disabled={isDisabled} 
+              onClick={disminuirStock}>COMPRAR</button>
     </div>
   )
 }
